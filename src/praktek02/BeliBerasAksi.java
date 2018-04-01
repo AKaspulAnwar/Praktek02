@@ -5,6 +5,7 @@ public class BeliBerasAksi {
         siam.hargaberas = 50000;
         siam.bayar      = 100000;
         
+        siam.cetakInfo();
         
     }
      
