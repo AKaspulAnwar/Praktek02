@@ -5,7 +5,10 @@ public class BeliBerasAksi {
         siam.hargaberas = 50000;
         siam.bayar      = 100000;
         
+        System.out.println("Beras Siam");
         siam.cetakInfo();
+        System.out.println("Uang Kembali = "+siam.kembalian());
+        
         
     }
      

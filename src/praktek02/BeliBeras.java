@@ -9,4 +9,11 @@ public class BeliBeras {
         System.out.println("Bayar           = "+bayar);
         System.out.println("===========");
     }
+    
+    double kembalian(){
+        double kembalian;
+        kembalian = bayar-hargaberas;
+        return kembalian;
+        
+    }
 }
