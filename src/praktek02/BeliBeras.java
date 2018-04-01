@@ -7,6 +7,12 @@ public class BeliBeras {
         hargaberas = 40000;
         bayar      = 50000;
     }
+
+    public BeliBeras(double hargaberas, double bayar) {
+        this.hargaberas = hargaberas;
+        this.bayar = bayar;
+    }
+    
     
     void cetakInfo(){
         System.out.println("================================");

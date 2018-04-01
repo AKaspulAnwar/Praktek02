@@ -11,7 +11,11 @@ public class BeliBerasAksi {
         siam.cetakkembalian();
         
         BeliBeras jawa = new BeliBeras ();
-        jawa.cetakInfo();
+        jawa.cetakInfo(); 
+        
+        BeliBeras ketan = new BeliBeras (65000,70000);
+        ketan.cetakInfo();
+        
     }
      
 }
