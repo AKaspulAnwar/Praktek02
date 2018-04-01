@@ -16,4 +16,8 @@ public class BeliBeras {
         return kembalian;
         
     }
+    
+    void cetakkembalian(){
+        System.out.println("Kembaliannya adalah : "+kembalian());
+    }
 }

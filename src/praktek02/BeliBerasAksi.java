@@ -8,7 +8,7 @@ public class BeliBerasAksi {
         System.out.println("Beras Siam");
         siam.cetakInfo();
         System.out.println("Uang Kembali = "+siam.kembalian());
-        
+        siam.cetakkembalian();
         
     }
      
