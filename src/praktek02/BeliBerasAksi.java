@@ -11,12 +11,14 @@ public class BeliBerasAksi {
         siam.cetakkembalian();
         
         BeliBeras jawa = new BeliBeras ();
+        System.out.println("--------------------------------");
         System.out.println("Beras Jawa");
         jawa.cetakInfo();
         System.out.println("Uang Kembali    =Rp."+jawa.kembalian());
         jawa.cetakkembalian();
         
         BeliBeras ketan = new BeliBeras (65000,70000);
+        System.out.println("--------------------------------");
         System.out.println("Beras Ketan");
         ketan.cetakInfo();
         System.out.println("Uang Kembali    =Rp."+ketan.kembalian());
