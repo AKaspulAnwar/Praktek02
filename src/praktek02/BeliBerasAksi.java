@@ -10,6 +10,8 @@ public class BeliBerasAksi {
         System.out.println("Uang Kembali    =Rp."+siam.kembalian());
         siam.cetakkembalian();
         
+        BeliBeras jawa = new BeliBeras ();
+        jawa.cetakInfo();
     }
      
 }
