@@ -4,10 +4,10 @@ public class BeliBeras {
     double bayar;
     
     void cetakInfo(){
-        System.out.println("===========");
-        System.out.println("Harga Beras/5kg = "+hargaberas);
-        System.out.println("Bayar           = "+bayar);
-        System.out.println("===========");
+        System.out.println("================================");
+        System.out.println("Harga Beras/5kg =Rp."+hargaberas);
+        System.out.println("Bayar           =Rp."+bayar);
+        System.out.println("================================");
     }
     
     double kembalian(){
@@ -18,6 +18,6 @@ public class BeliBeras {
     }
     
     void cetakkembalian(){
-        System.out.println("Kembaliannya adalah : "+kembalian());
+        System.out.println("Kembaliannya adalah :Rp."+kembalian());
     }
 }
