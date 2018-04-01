@@ -2,6 +2,11 @@ package praktek02;
 public class BeliBeras {
     double hargaberas;
     double bayar;
+
+    public BeliBeras() {
+        hargaberas = 40000;
+        bayar      = 50000;
+    }
     
     void cetakInfo(){
         System.out.println("================================");
